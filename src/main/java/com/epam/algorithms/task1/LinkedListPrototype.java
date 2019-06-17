@@ -33,8 +33,8 @@ public class LinkedListPrototype {
         }
     }
 
-    public LinkedListElement head() {
-        return firstElement;
+    public String head() {
+        return firstElement.getValue();
     }
 }
 
