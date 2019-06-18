@@ -1,4 +1,4 @@
-package com.epam.algorithms.task3;
+package com.epam.algorithms.homework1.task3;
 
 class LinkedListElementWithMax {
 

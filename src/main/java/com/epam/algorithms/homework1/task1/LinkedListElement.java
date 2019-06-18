@@ -1,4 +1,4 @@
-package com.epam.algorithms.task1;
+package com.epam.algorithms.homework1.task1;
 
 class LinkedListElement {
 

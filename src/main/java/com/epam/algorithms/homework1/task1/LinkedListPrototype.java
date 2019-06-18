@@ -1,11 +1,11 @@
-package com.epam.algorithms.task3;
+package com.epam.algorithms.homework1.task1;
 
-public class LinkedListPrototypeWithMax {
-    private LinkedListElementWithMax firstElement;
+public class LinkedListPrototype {
+    private LinkedListElement firstElement;
 
     public int size() {
         int s = 0;
-        LinkedListElementWithMax currentElement = firstElement;
+        LinkedListElement currentElement = firstElement;
         while (currentElement != null) {
             s = s + 1;
             currentElement = currentElement.getNext();
@@ -13,17 +13,15 @@ public class LinkedListPrototypeWithMax {
         return s;
     }
 
-    public void addFirst(int value) {
+    public void addFirst(String value) {
         if (firstElement != null) {
-            LinkedListElementWithMax newElement = new LinkedListElementWithMax();
+            LinkedListElement newElement = new LinkedListElement();
             newElement.setValue(value);
             newElement.setNext(firstElement);
-            newElement.setMax(value > firstElement.getMax() ? value : firstElement.getMax());
             firstElement = newElement;
         } else {
-            firstElement = new LinkedListElementWithMax();
+            firstElement = new LinkedListElement();
             firstElement.setValue(value);
-            firstElement.setMax(value);
         }
     }
 
@@ -35,18 +33,9 @@ public class LinkedListPrototypeWithMax {
         }
     }
 
-    public Integer head() {
+    public String head() {
         if (firstElement != null) {
             return firstElement.getValue();
-        } else {
-            System.out.println("LinkedList is empty.");
-            return null;
-        }
-    }
-
-    public Integer getMax() {
-        if (firstElement != null) {
-            return firstElement.getMax();
         } else {
             return null;
         }

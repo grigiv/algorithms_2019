@@ -1,6 +1,6 @@
-package com.epam.algorithms.task4;
+package com.epam.algorithms.homework1.task4;
 
-import com.epam.algorithms.task1.LinkedListPrototype;
+import com.epam.algorithms.homework1.task1.LinkedListPrototype;
 
 import java.util.Scanner;
 

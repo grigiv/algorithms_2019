@@ -1,4 +1,4 @@
-package com.epam.algorithms.task1;
+package com.epam.algorithms.homework1.task1;
 
 public class Task1App {
     public static void main(String[] args) {

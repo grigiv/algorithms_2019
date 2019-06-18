@@ -1,6 +1,6 @@
-package com.epam.algorithms.task2;
+package com.epam.algorithms.homework1.task2;
 
-import com.epam.algorithms.task1.LinkedListPrototype;
+import com.epam.algorithms.homework1.task1.LinkedListPrototype;
 
 public class LlpQueue {
     private LinkedListPrototype tmpLinkedListPrototype;
